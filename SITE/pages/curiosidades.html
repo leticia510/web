@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Cervero</title>
+    <style>
+        /* Configurações gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/img/fundo.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        /* Barra Superior */
+        .barra-superior {
+            background-color: #821d1d;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .links-navegacao {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .links-navegacao li {
+            margin: 0 15px;
+        }
+
+        .links-navegacao a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .links-navegacao a:hover {
+            color: #ff544e;
+        }
+
+        /* Seção Principal */
+        .secao-principal {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .sobreposicao {
+            background-color: rgba(5, 0, 0, 0.7);
+            padding: 40px;
+            display: inline-block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+
+        .secao-principal h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-family: 'Georgia', serif;
+        }
+
+        .secao-principal h2 {
+            font-size: 1.2em;
+            margin-top: 5px;
+            font-weight: 300;
+        }
+
+        /* Conteúdo Principal */
+        .conteudo {
+            display: flex;
+            justify-content: flex-start;
+            padding: 20px;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+
+        .info-personagem {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-right: 40px;
+        }
+
+        .imagem-personagem {
+            margin-bottom: 20px;
+        }
+
+        .imagem-personagem img {
+            border: 2px solid #fff;
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        .caixa-curiosidades {
+            background-color: rgba(5, 0, 0, 0.7);
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 1300px;
+        }
+
+        .caixa-curiosidades h1 {
+            text-align: left;
+            font-family: 'Georgia', serif;
+        }
+
+        .caixa-curiosidades p {
+            text-align: justify;
+        }
+
+        .linha-divisoria {
+            border-top: 1px solid #fff;
+            margin: 15px 0;
+        }
+
+        /* Rodapé */
+        .rodape {
+            background-color: #821d1d;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 30px;
+            bottom: 0;
+        }
+
+        .rodape a {
+            color: #ffddc1;
+            text-decoration: none;
+        }
+
+        .rodape a:hover {
+            color: #ff544e;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra Superior com Links -->
+    <nav class="barra-superior">
+        <ul class="links-navegacao">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/biografia.html">Biografia</a></li>
+            <li><a href="/pages/curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+
+    <!-- Introdução do Personagem -->
+    <main class="conteudo">
+        <section class="info-personagem">
+            <div class="imagem-personagem">
+                <img src="/img/tutu.jpg" alt="Imagem do personagem">
+            </div>
+            <div class="imagem-personagem">
+                <img src="/img/foto2.jpg" alt="Imagem do personagem">
+            </div>
+            <div class="imagem-personagem">
+                <img src="/img/jeniffer.png" alt="Imagem do personagem">
+            </div>
+            <div class="imagem-personagem">
+                <img src="/img/foto3.jpg" alt="Imagem do personagem">
+            </div>
+        </section>
+        <section class="caixa-curiosidades">
+            <h1>Curiosidades</h1>
+            <ul>
+                <li>Inicialmente, Arthur era apenas para ser uma participação especial de Guaxinim no RPG e aparecer temporariamente, assim como O Ajudante. Porém, com a inesperada morte de Cristopher Cohen, logo no 3º episódio de O Segredo na Floresta, e o apoio da comunidade, Arthur se uniu ao grupo de protagonistas.</li>
+                <div class="linha-divisoria"></div>
+                <li>O nome da moto de Arthur é Princesa.</li>
+                <div class="linha-divisoria"></div>
+                <li>O Instagram de Arthur é "arthurzinho_guitarrista".</li>
+                <div class="linha-divisoria"></div>
+                <li>No dia em que Amanda e Henrique Cervero morreram, Arthur teria ido junto com eles na viagem de carro, porém, devido a uma briga entre os irmãos, os dois não queriam ficar próximos um do outro, o que fez Arthur não ir.</li>
+                <div class="linha-divisoria"></div>
+                <li>Arthur chora sem motivos às vezes.</li>
+                <div class="linha-divisoria"></div>
+                <li>A comida favorita do Arthur é lasanha.</li>
+                <div class="linha-divisoria"></div>
+                <li>Ele treinou para aprender a tocar o violão com um braço só, durante os meses após a perda. Ele dedilha os acordes e puxa as cordas ao mesmo tempo</li>
+                <div class="linha-divisoria"></div>
+                <li>Cellbit informou em uma de suas lives que Arthur possuía 14 de aparência em Desconjuração e que, juntamente de Tristan Monteiro, era um dos personagens que mais possuíam pontos em aparência na temporada, explicando seu alto carisma.</li>
+                <div class="linha-divisoria"></div>
+                <li>Arthur gosta muito de chiclete, principalmente azul.</li>
+                <div class="linha-divisoria"></div>
+                <li>O sabor de pizza favorito de Arthur é Pepperoni.</li>
+                <div class="linha-divisoria"></div>
+                <li>Os nomes dos rituais de Arthur são homenagens a álbuns/músicas com participação do guitarrista favorito de Guaxinim e Arthur, Kiko Loureiro. Em exemplos, Rebirth e Temple of Hate (Templo do Ódio) da banda Angra, e Dystopia da banda Megadeth.</li>
+                <div class="linha-divisoria"></div>
+                <li>Na capa do 1º episódio de Calamidade, Arthur aparece com seu braço e cicatrizes do lado oposto, o que foi depois esclarecido como um erro do artista.</li>
+                <div class="linha-divisoria"></div>
+                <li>O herói favorito de Força G de Arthur é Tangatatoa.</li>
+                <div class="linha-divisoria"></div>
+                <li>O nome e o visual de Arthur foram inspirados no personagem de mesmo nome da série britânica Peaky Blinders.</li>
+                <div class="linha-divisoria"></div>
+                <li>Arthur ficou relativamente famoso após postar um vídeo tocando guitarra junto dos outros Gaudérios Abutres no YouTube.</li>
+                <div class="linha-divisoria"></div>
+                <li>Seu isqueiro possui um adesivo de uma flor roxa, em homenagem a Kaiser.</li>
+                <div class="linha-divisoria"></div>
+                <li>Arthur é um dos três personagens presentes na capa do Livro de Regras de Ordem Paranormal RPG.</li>
+                <div class="linha-divisoria"></div>
+                <li>Em Sobrevivendo ao Horror, é revelado que as mechas brancas nos cabelos e barba de Arthur são adquiridas pelo mesmo não por uma consequência direta de sua Afinidade com Sangue, mas pela manifestação do Medo como um reflexo de seu desenvolvimento; refletindo seu pai, Brúlio, e o Senhor Veríssimo.</li>
+            </ul>
+            <div class="linha-divisoria"></div>
+            <h2>Manias e Fobias</h2>
+            <ul>
+                <li>Aracnofobia (parcialmente perdida): Medo irracional de aranhas. Contraída, assim como aconteceu com o resto de seu grupo, durante o encontro contra a Aracnasita no 3º episódio de O Segredo na Floresta.</li>
+                <div class="linha-divisoria"></div>
+                <li>Ansiedade Social Temporária: Como efeito colateral por conta do conflito contra o Viajante, Arthur desenvolveu ansiedade social temporariamente, o que faz com que ele tenha dificuldade em se socializar e interagir com aqueles que ele não é muito próximo.</li>
+                <div class="linha-divisoria"></div>
+                <li>Eritrofobia (leve): É o medo irracional da cor vermelha. Essa fobia é um tipo específico de cromofobia, que é o medo irracional de cores. Adquiriu essa fobia durante 6º episódio, por conta da grande quantidade de sangue que viu quando teve seu rosto cortado pelo Carniçal. Apesar de ainda possuir o trauma atualmente, Arthur tem sintomas leves.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>Baseado em: <a href="https://ordemparanormal.fandom.com/wiki/Arthur_Cervero" target="_blank"><strong>Ordem Paranormal Wiki</strong></a></p>
+    </footer>
+
+</body>
+</html>

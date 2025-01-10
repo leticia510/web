@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Cervero</title>
+    <style>
+        /* Configurações gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('img/fundo.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        /* Barra Superior */
+        .barra-superior {
+            background-color: #821d1d;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .links-navegacao {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .links-navegacao li {
+            margin: 0 15px;
+        }
+
+        .links-navegacao a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .links-navegacao a:hover {
+            color: #ff544e;
+        }
+
+        /* Seção Principal */
+        .secao-principal {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .sobreposicao {
+            background-color: rgba(5, 0, 0, 0.7);
+            padding: 40px;
+            display: inline-block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+
+        .secao-principal h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-family: 'Georgia', serif;
+        }
+
+        .secao-principal h2 {
+            font-size: 1.2em;
+            margin-top: 5px;
+            font-weight: 300;
+        }
+
+        /* Conteúdo Principal */
+        .conteudo {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .info-personagem {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .imagem-personagem {
+            margin-left: 60px;
+            margin-right: 40px;
+        }
+
+        .imagem-personagem img {
+            border: 2px solid #fff;
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        .caixa-info {
+            background-color: rgba(5, 0, 0, 0.7);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 10px;
+            width: 270px;
+            border: 2px solid #fff;
+        }
+
+        .caixa-info div {
+            padding: 5px 0;
+            border-top: 1px solid #fff;
+        }
+
+        .caixa-info div:first-child {
+            font-weight: bold;
+            border-top: none;
+            text-align: center;
+        }
+
+        .caixa-info div.associacao {
+            border-top: none;
+        }
+
+        .introducao-personagem {
+            background-color: rgba(5, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 1300px;
+        }
+
+        .introducao-personagem h2 {
+            text-align: left;
+            font-family: 'Georgia', serif;
+        }
+
+        .introducao-personagem p {
+            text-align: justify;
+        }
+
+        .linha-divisoria {
+            border-top: 1px solid #fff;
+            margin: 15px 0;
+        }
+
+        /* Rodapé */
+        .rodape {
+            background-color: #821d1d;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 30px;
+            bottom: 0;
+        }
+
+        .rodape a {
+            color: #ffddc1;
+            text-decoration: none;
+        }
+
+        .rodape a:hover {
+            color: #ff544e;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra Superior com Links -->
+    <nav class="barra-superior">
+        <ul class="links-navegacao">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/biografia.html">Biografia</a></li>
+            <li><a href="pages/curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+
+    <!-- Título com Retângulo Sobreposto -->
+    <header class="secao-principal">
+        <div class="sobreposicao">
+            <h1>Arthur Cervero</h1>
+            <h2>"Eu sou um Gaudério... E a gente morre por quem a gente ama."</h2>
+        </div>
+    </header>
+
+    <!-- Introdução do Personagem -->
+    <main class="conteudo">
+        <section class="info-personagem">
+            <div class="imagem-personagem">
+                <img src="img/arthur_home.jpg" alt="Imagem do personagem">
+                <div class="caixa-info">
+                    <div>Intérprete: Rafael "Guaxinim" Montes</div>
+                    <div>Afinidade: Sangue</div>
+                    <div>Origem: Artista</div>
+                    <div>Classe: Especialista</div>
+                    <div>Trilha: Atirador de Elite</div>
+                    <div>Associação:</div>
+                    <div class="associacao">Gaudérios Abutres</div>
+                    <div class="associacao">Ordo Realitas</div>
+                    <div class="associacao">Equipe E</div>
+                    <div class="associacao">Força D</div>
+                    <div class="associacao">Equipe Abutres</div>
+                    <div>Status: Vivo</div>
+                </div>
+            </div>
+            <div class="introducao-personagem">
+                <h2>Introdução</h2>
+                <p>Arthur Cervero é um dos protagonistas da série Ordem Paranormal, presente em O Segredo na Floresta, Desconjuração, Calamidade e O Segredo na Ilha.</p>
+
+                <p>Ele era um músico e membro da gangue de motoqueiros Gaudérios Abutres em Carpazinha, que se juntou a Ordo Realitas após perder seus colegas durante uma luta contra o Carniçal Preto da Morte. Após esse incidente, passou a fazer parte da Equipe E, grupo que investigava a manifestação paranormal conhecida como Santo Berço.</p>
+                    
+                <p>Tendo como família apenas sua mãe adotiva, Ivete Beicur, ele se muda para São Paulo e passa a morar com um de seus colegas de equipe, Kaiser. Eles, juntos de mais alguns agentes, formam a Força D, uma equipe destinada a investigar o retorno do primeiro ocultista, Kian.</p>
+                    
+                <p>Um tempo depois, ele é colocado como líder de um novo grupo, a Equipe Abutres, com o objetivo de encontrar as chamadas Relíquias da Calamidade.</p>
+
+                <p>Diferentemente do que se espera de membros de gangues, Arthur é um rapaz sensível, bondoso e apegado à sua família e amigos por conta da perda que sofreu enquanto jovem. Geralmente possui uma atitude brincalhona, com uma grande facilidade de fazer amigos. Não costuma ter vergonha de falar sobre seus verdadeiros sentimentos, por mais embaraçosos que eles sejam.</p>
+
+                <p>Após os eventos trágicos que lhe ocorreram, Arthur tornou-se uma pessoa mais protetora às pessoas preciosas em sua vida. Entretanto, sua doçura e gentileza continuam sendo parte de sua personalidade, mostrando que, apesar de tudo, ele é uma pessoa forte e procura fazer o melhor que pode para proteger as pessoas que ama, além de sempre buscar aliviar momentos tensos.</p>
+
+                <div class="linha-divisoria"></div>
+
+                <h2>Aptidões</h2>
+                <ul>
+                    <li><strong>Conhecimento Balístico:</strong> Por ser Membro de Gangue, possui amplo conhecimento sobre armas e munições. Arthur atirou pela primeira vez com 15 anos, como é mencionado no 4º episódio de O Segredo na Floresta.</li>
+                    <p> </p>
+                    <li><strong>Membro de Gangue:</strong> Por ter ingressado numa gangue logo aos 18 anos, Arthur possui perícia na execução de furto, tornando-o extremamente furtivo e sorrateiro em inúmeras situações.</li>
+                    <p> </p>
+                    <li><strong>Músico:</strong> Arthur possui habilidade em instrumentos musicais e teoria musical. Ele fez faculdade de música em Minas Gerais e, mesmo com um braço só, toca guitarra, principalmente.</li>
+                    <p> </p>
+                    <li><strong>Atirador de elite:</strong> Em Calamidade, Arthur se tornou um atirador de elite. Suas habilidades de tiro com a sniper são muito eficientes, ainda mais quando somadas a habilidades paranormais que ele desenvolveu.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>Baseado em: <a href="https://ordemparanormal.fandom.com/wiki/Arthur_Cervero" target="_blank"><strong>Ordem Paranormal Wiki</strong></a></p>
+    </footer>
+
+</body>
+</html>

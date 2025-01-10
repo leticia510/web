@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/img/fundo.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        .barra-superior {
+            background-color: #821d1d;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .links-navegacao {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .links-navegacao li {
+            margin: 0 15px;
+        }
+
+        .links-navegacao a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .links-navegacao a:hover {
+            color: #ff544e;
+        }
+
+        .secao-principal {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .sobreposicao {
+            background-color: rgba(5, 0, 0, 0.7);
+            padding: 40px;
+            display: inline-block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+
+        .secao-principal h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-family: 'Georgia', serif;
+        }
+
+        .secao-principal h2 {
+            font-size: 1.2em;
+            margin-top: 5px;
+            font-weight: 300;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+
+        .informacao1 {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .imagem-personagem1 {
+            margin-right: 40px;
+        }
+
+        .imagem-personagem1 img {
+            border: 2px solid #fff;
+            border-radius: 10px;
+            width: 390px;
+        }
+
+        .box-informacao1 {
+            background-color: rgba(5, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 1260px;
+        }
+
+        .box-informacao1 h2 {
+            text-align: left;
+            font-family: 'Georgia', serif;
+        }
+
+        .box-informacao1 p {
+            text-align: justify;
+        }
+
+        .informacao2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .box-informacao2 {
+            background-color: rgba(5, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 1260px;
+        }
+
+        .box-informacao2 h2 {
+            text-align: left;
+            font-family: 'Georgia', serif;
+        }
+
+        .box-informacao2 p {
+            text-align: justify;
+        }
+
+        .imagem-personagem2 {
+            margin-left: 40px;
+        }
+
+        .imagem-personagem2 img {
+            border: 2px solid #fff;
+            border-radius: 10px;
+            width: 390px;
+        }
+
+        .linha-divisoria {
+            border-top: 1px solid #fff;
+            margin: 15px 0;
+        }
+
+        .rodape {
+            background-color: #821d1d;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 30px;
+            bottom: 0;
+        }
+
+        .rodape a {
+            color: #ffddc1;
+            text-decoration: none;
+        }
+
+        .rodape a:hover {
+            color: #ff544e;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="barra-superior">
+        <ul class="links-navegacao">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/biografia.html">Biografia</a></li>
+            <li><a href="/pages/curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+
+    <header class="secao-principal">
+        <div class="sobreposicao">
+            <h1>Biografia</h1>
+            <h2>"Eu sei como é isso... eu já perdi duas famílias minhas."</h2>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="informacao1">
+            <div class="imagem-personagem1">
+                <img src="/img/arthur_e_brulio.webp" alt="Imagem do personagem">
+            </div>
+            <div class="box-informacao1">
+                <h2>Passado</h2>
+                <p>Arthur Cervero nasceu no dia 22 de junho de 1992, em Carpazinha, no Rio Grande do Sul, filho de Brúlio e Amanda Cervero. Arthur aprendeu com seus pais a se virar desde pequeno, sendo ensinado por sua mãe o básico de primeiros socorros para caso ocorresse algo contra sua família, principalmente por conta da violência dos Assombrados. Além disso, Arthur tinha uma grande paixão pela música, montando uma banda junto de Murilo, Marcelo e Ivan durante seu tempo na escola.</p>
+                <p>Em 2014, após um acidente de carro, sua mãe e seu irmão mais novo, Henrique Cervero, morrem quando Arthur tinha 22 anos. Por querer um tempo para si, Arthur resolveu seguir seu sonho e se mudou pra Belo Horizonte, em Minas Gerais, para fazer faculdade de música. Após cinco anos, Arthur retornou para Carpazinha na intenção de dedicar-se a sua família e amigos, atuando como guitarrista em sua banda com os Gaudérios Abutres.</p>
+            </div>
+        </section>
+
+        <section class="informacao2">
+            <div class="box-informacao2">
+                <h2>O Segredo na Floresta</h2>
+                <p>Arthur Cervero, um músico e membro da gangue Gaudérios Abutres, conhece a equipe de agentes da Ordem no bar Suvaco Seco, onde iria fazer um show. Durante o evento, criaturas monstruosas atacam, levando à morte de seu amigo Getúlio. A equipe tenta convencer Arthur de que os eventos são resultado de experimentos científicos, ocultando o paranormal. Depois de uma luta com uma aranha gigante, a equipe pede que Arthur ajude a evacuar o bar, mas acabam sendo atacados por um Carniçal que controla membros da gangue, resultando na morte de vários deles, incluindo Brúlio e Ivan. Arthur, gravemente ferido, é levado ao hospital e, após a morte de muitos dos seus amigos, se junta à equipe da Ordem para continuar investigando os acontecimentos.</p>
+                <p>A equipe descobre que a cidade de Santo Berço é um lugar isolado e misterioso, onde enfrentam figuras como o Ferreiro e o Ajudante, e são perseguidos por criaturas e eventos sobrenaturais. Durante uma investigação, eles são atacados por criaturas do labirinto e o Ajudante é encontrado morto com um símbolo misterioso, o Símbolo Espiral. A equipe continua sua jornada, indo até uma fazenda onde enfrentam mais criaturas e descobrem que o Ferreiro tem envolvimento com os mistérios da cidade.</p>
+                <p>Em uma caverna, a equipe descobre mais sobre a cidade e o poder por trás do Santo Berço, incluindo a conexão com os Mananciais e um projeto de vida eterna envolvendo a energia do lugar. Arthur e os outros enfrentam o Minerador, que acaba traindo a equipe, e Arthur perde seu braço durante o combate. Com a ajuda do Porteiro, que revela os segredos do Santo Berço, a equipe tenta impedir um plano maior e chega ao centro do labirinto, onde encontram Kenan Thomas, um antigo membro da Equipe Kelvin, preso. Eles o libertam, mas enfrentam mais dificuldades ao encontrar uma manifestação do Parasita de Dimensões, que ameaça destruir tudo.</p>
+                <p>Quando o Ferreiro se transforma em uma criatura monstruosa, a equipe precisa lutar para impedir o caos. Durante a batalha, Thiago se sacrifica para destruir o Parasita e salvar a equipe, mas a cidade de Santo Berço é destruída no processo. Arthur e os outros conseguem escapar, mas ficam traumatizados pelas perdas. Após semanas, Arthur e a equipe participam de uma reunião com Senhor Veríssimo para relatar os eventos, e Arthur, agora mais forte e unido à Ordem, se prepara para seguir em frente com novos aliados, incluindo Agatha Volkomenn, a primeira ocultista da Ordem.</p>
+                <p>Assim, Arthur, marcado pela morte dos amigos e pelas batalhas que enfrentou, encontra uma nova direção, se comprometendo com a Ordem e com o que resta de sua jornada.</p>
+            </div>
+            <div class="imagem-personagem2">
+                <img src="/img/equipe_e.webp" alt="Imagem de Arthur com a Equipe E">
+            </div>
+        </section>
+
+        <section class="informacao1">
+            <div class="imagem-personagem1">
+                <img src="/img/arthur_familia.jpg" alt="Imagem do personagem">
+            </div>
+            <div class="box-informacao1">
+                <h2>Time Skip</h2>
+                <p>Arthur passou a morar com Kaiser e Ivete num apartamento em São Paulo, bem próximo da Base da Ordo Realitas, sendo visitado periodicamente por Joui Jouki. Por volta de 2 semanas antes do começo dos eventos de Desconjuração, Arthur adota uma gatinha de rua, a nomeando de "Jennifer", como homenagem à vaca.[31] Logo após a adoção, Arthur começa a escutar um som de goteira em seu apartamento sem fonte aparente.</p>
+                <p>Ele aprendeu a lidar com o fato de não possuir um braço, se dando muito bem com tal ocorrido. Durante os meses que se passaram, ele também treinou para aprender a tocar violão apenas com a mão restante. Ele também aprendeu como ajudar seu melhor amigo, Kaiser, em suas crises de pânico quando necessário.[34] Foi comentado por Tristan, logo no 1º episódio, que Arthur participou de poucas missões durante estes seis meses, passando a maior parte de seu tempo ajudando a Ivete na venda das armas da base. Além disso, ele parece ter conquistado a confiança do Senhor Veríssimo, que se dispõe a comentar sobre várias coisas importantes com ele.</p>
+            </div>
+        </section>
+
+        <section class="informacao2">
+            <div class="box-informacao2">
+                <h2>Desconjuração</h2>
+                <p>Arthur e seu grupo, composto por Kaiser, Erin, Fernando, Tristan, Beatrice, e Joui, partem em busca de Elizabeth Webber e seu aprendiz, Gustavo Dohmer, desaparecidos há semanas. Durante a investigação, descobrem ligações entre a morte de Leonardo Gomes, o caso de Santo Berço e a Ordem da Desconjuração. Após confrontos com ocultistas, localizam Liz em um orfanato, onde a resgatam, mas enfrentam a ameaça de uma Degolificada, que mata Gustavo e fere gravemente Kaiser. Na fuga, os Escriptas aparecem e, em um momento trágico, assassinando Liz diante dos amigos, que são capturados mas posteriormente resgatados por Erin e Fernando.</p>
+                <p>Seguindo pistas para uma Mansão assombrada, a equipe enfrenta entidades perigosas e perdas dolorosas. Beatrice torna-se uma Existida após a morte de Orpheu, e Tristan também cai em batalha. Durante os confrontos, Arthur é atormentado por uma entidade que ameaça sua sanidade. Ele toca violão com um braço para derrotar monstros e prosseguir na investigação. Após enfrentamentos intensos, eles descobrem informações sobre antigos moradores da mansão e suas conexões com a Desconjuração.</p>
+                <p>Joui revela um acordo com a Seita das Máscaras para proteger a equipe, o que leva à sua partida dolorosa. Kaiser e Arthur, abalados, prometem trazê-lo de volta. Enquanto investigam novos distúrbios na Mansão, enfrentam Henri, que captura Kaiser. Bruno intervém surpreendentemente para salvar o amigo e enfrenta Henri. Este último liga sua vida à de Kaiser, Arthur e Luciano, ameaçando matá-los caso seja impedido, forçando os agentes a deixá-lo fugir.</p>
+                <p>Retornando ao Orfanato Santa Menefreda, o grupo encontra Gal, Kian e Tim, além dos corpos de seus companheiros pendurados em uma árvore. Em um confronto feroz, Arthur quase é morto, mas é salvo por Veríssimo. Com a ajuda de um ritual de Kaiser, Arthur e Dante conseguem escapar para a base da Ordo Realitas, sofrendo com as perdas de seus amigos e companheiros de luta.</p>
+                <p>Mesmo com as mortes e adversidades, o grupo permanece determinado a enfrentar a ameaça da Desconjuração e seus inimigos ocultistas. O vínculo entre os sobreviventes se fortalece enquanto buscam justiça para os que se foram e continuam a luta por respostas em meio ao caos sobrenatural e as forças sombrias que os cercam.</p>
+            
+            
+            </div>
+            <div class="imagem-personagem2">
+                <img src="/img/arthur_luta.jpg" alt="Imagem de Arthur com a Equipe E">
+            </div>
+        </section>
+
+        <section class="informacao1">
+            <div class="imagem-personagem1">
+                <img src="/img/abutres.png" alt="Imagem do personagem">
+            </div>
+            <div class="box-informacao1">
+                <h2>Calamidade</h2>
+                <p>Arthur, após meses de espera, é chamado por Veríssimo para liderar uma nova missão. Ele se junta a Dante, Carina, Balu e Rubens e viaja para Bariguara, no Mato Grosso, para investigar a casa de Elza, uma moradora que estava agindo de forma estranha. Lá, descobrem um alçapão trancado, e ao abri-lo, enfrentam a criatura Carente. Depois de derrotá-la, a equipe encontra uma página do Grimório de Arnaldo Fritz. De volta à base, são enviados para a Itália, onde encontram a Família Leone brutalmente assassinada por Escriptas e Kian. No bunker da mansão, descobrem que o Diabo estava envolvido na chacina, realizando um pacto com o patriarca da família, Marco Leone.</p>
+                <p>Enquanto investigam a mansão, Arthur e sua equipe enfrentam um desafio emocional ao descobrirem que a mãe de Carina, Patrizia Leone, era um Titã de Sangue. Após essa revelação, a equipe realiza um enterro simbólico para ela. Em seguida, Agatha e a Ordem chegam à Itália, e a equipe decide investigar o Coliseu. Durante a missão, Arthur é reconhecido por um faxineiro devido a um vídeo musical, comprometendo a infiltração. No confronto que segue, Arthur usa sua lâmina de sangue pela primeira vez e derrota os inimigos. No entanto, o grande choque ocorre quando Arthur reencontra seu antigo companheiro, Joui Jouki, o que traz um momento de emoção e alívio.</p>
+                <p>A equipe chega à Ordo Calamitas e começa a reviver as vidas dos antigos membros da organização. Arthur e seus companheiros enfrentam os jogos do Anfitrião, sendo forçados a tomar uma difícil decisão: matar ou salvar Gal, que está sendo torturado por Clarissa Leão. Arthur e Dante escolhem salvar Gal, gerando uma discussão com Joui. Após isso, a equipe se alia à Seita das Máscaras, enfrentando o Anfitrião em uma luta intensa. Durante o confronto, Arthur quase é morto, mas é salvo por Dante. A batalha contra o Anfitrião de Arnaldo Fritz deixa todos exaustos, mas, no final, a equipe sai vitoriosa.</p>
+                <p>Após descansar e transcender, Arthur se conecta ao elemento de Sangue e recebe uma missão de emergência para proteger o Coliseu e a Mansão Leone. Junto com Rubens e Balu, ele defende a mansão contra uma invasão de criaturas e ocultistas de Morte, enfrentando uma criatura chamada Carniçal da Esfinge, que ele derrota. Quando retornam ao Coliseu, Arthur é devastado pela morte de Joui. Em um momento de raiva, ele enfrenta Kian, e com a ajuda de Balu, consegue derrotá-lo. Após a vitória, Veríssimo revela que a próxima missão de Arthur é voltar à sua cidade natal, Carpazinha, onde ele e sua equipe prestam homenagem aos caídos, incluindo Joui e Kaiser. Veríssimo, ciente de que seu tempo está chegando ao fim, pede a Arthur que continue cuidando da Ordo Realitas.</p>
+                <p>O retorno a Carpazinha marca um momento de reflexão para Arthur. Ele se despede de seus antigos companheiros em um funeral simbólico, e a missão de proteger a Ordo Realitas parece mais clara. A partida de Veríssimo se aproxima, e a responsabilidade de Arthur como líder da Ordo Realitas se torna mais pesada. Apesar das perdas que sofreu e das batalhas intensas, ele está determinado a seguir em frente, cumprindo seu papel na luta contra as forças do mal. A jornada de Arthur continua, agora com mais experiência, sabedoria e uma nova compreensão de seu papel no universo.</p>
+            </div>
+        </section>
+
+        <section class="informacao2">
+            <div class="box-informacao2">
+                <h2>O Segredo na Ilha</h2>
+                <p>Arthur é chamado para uma missão de emergência na Ilha de Tipora, onde ele e Walter vão socorrer dois agentes novatos, Wanderley e Cavalcante, que estavam investigando a ilha. Ao chegarem, eles encontram um grupo de pessoas que escaparam de um ataque paranormal, sendo Amelie e Olivier Florence os responsáveis por controlar a situação. Os jovens explicam que uma criatura apareceu na igreja da ilha e matou vários moradores, incluindo Wanderley. Arthur percebe o potencial de Amelie e Olivier, sobreviveu a um ataque do Outro Lado, e decide enviá-los para segurança enquanto ele e Walter investigam a ilha mais a fundo.</p>
+                <p>A dupla segue para a Mansão dos Moretti, onde encontram os corpos de Leila Lima e Emério Cunha. Em um dos quartos, Arthur encontra um diário que menciona um local secreto sob a lareira. Eles investigam e descobrem uma entrada subterrânea que os leva a uma caverna antiga cheia de estátuas e um sino quebrado. Em meio à investigação, Arthur encontra uma porta com o símbolo de Tenebris e, ao ver um quadro com a pintura de uma torre com um sino, tem uma visão perturbadora. Ele percebe que está diante de um dos seis sinos de Tenebris, conectando-o à Cidade Impossível.</p>
+                <p>Com essa revelação, Arthur sente que está mais próximo de entender a verdade, mas a resposta completa ainda está por vir, deixando a história em aberto para o que está por acontecer.</p>
+            
+            </div>
+            <div class="imagem-personagem2">
+                <img src="/img/abutre.jpg" alt="Imagem de Arthur com a Equipe E">
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer class="rodape">
+        <p>Baseado em: <a href="https://ordemparanormal.fandom.com/wiki/Arthur_Cervero" target="_blank"><strong>Ordem Paranormal Wiki</strong></a></p>
+    </footer>
+
+</body>
+</html>
